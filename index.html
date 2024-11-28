@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Professional Course Finder</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shorcut icon" href="https://cdn-icons-png.flaticon.com/128/5000/5000269.png"/>
+
+</head>
+<body>
+  <h1><a class="navbar" href="./index.html">Home</a><a href="./about.html" class="about">About Me</a></h1>
+
+        <p>Find Best & Free Courses on many job <br>oriented topics by Industry Experts</p>
+
+        <div class="container">
+          <label for="topic">Select Topic:</label>
+          <select id="topic">
+            <option value="Information_Technology" selected>Information Technology</option>
+            <option value="Business_&_Entrepreneurship">Business & Entrepreneurship</option>
+            <option value="Healthcare_&_Wellness">Healthcare & Wellness</option>
+            <option value="Arts_&_Humanities">Arts & Humanities</option>
+            <option value="Environmental_Studies">Environmental Studies</option>
+          </select>
+        
+          <!-- <label for="subject">Select Subject:</label>
+          <select id="subject">
+            <option value="sales">Sales</option>
+            <option value="programming">Programming</option>
+          </select> -->
+        
+          <label for="filter">Filter by:</label>
+          <select id="filter">
+            <option value="free" selected>Free</option>
+            <option value="paid">Paid</option>
+          </select>
+        
+      <button  onclick=" findCourses()">Find Courses</button>
+      </div>
+        <div class="image-container">
+          <img src="boy.png" alt="Image of a Boy" class="footer-image">
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
